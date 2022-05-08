@@ -1,0 +1,71 @@
+@import "./common.scss";
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+    background-color: white;
+    .main-section {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        .sidebar {
+            width: 100%;
+            height: auto;
+            background: white;
+            box-shadow: 0 -3px 8px 0 #00000014;
+            position: relative;
+            .logo-section {
+                display: none;
+                padding: 2rem 2rem 0;
+                p {
+                    color: white;
+                    opacity: 0.3;
+                    font-size: 15px;
+                }
+            }
+            .sidebar-list {
+                flex-direction: row;
+                padding: 1rem 2rem;
+                justify-content: space-between;
+                .sidebar-list-item {
+                    flex-direction: column;
+                    transition: 0.2s all ease-in-out;
+                    .svg-image {
+                        background: #eee;
+                        width: 24px;
+                        height: 24px;
+                        transition: 0.2s all ease-in-out;
+                    }
+                    p {
+                        font-size: 9px;
+                        margin: 2px 0;
+                        font-weight: normal;
+                        font-style: normal;
+                        line-height: 1.38;
+                        text-align: left;
+                    }
+                    &.active {
+                        .svg-image {
+                            background: $green;
+                        }
+                        p {
+                            font-weight: bold;
+                            color: $green;
+                        }
+                    }
+                }
+            }
+        }
+        .main-content {
+            height: 100%;
+            overflow: auto;
+            padding-top: 20px;
+            width: 100%;
+            background-color: $dark-violet;
+        }
+    }
+}

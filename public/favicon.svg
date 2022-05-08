@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 35" width="36" height="35">
+	<title>Logo-svg</title>
+	<defs>
+		<image  width="36" height="35" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAjCAMAAADL21gSAAAAAXNSR0IB2cksfwAAAVBQTFRFAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnAdFnlrIISwAAAHB0Uk5TACVhmdv/9uTRv1UIII7K6pMzYN+fd8VtquaKDrblIX+oNGxH4h0jwVqVx/kp48yFOY/XlwvcB5414Ram5yQnrezOtfJAwxO88/dGSLkJUPxLN64eyxl5JqTgKBWaQwR7yHKwaF647Soth6L08LRJGBSutycAAAFoSURBVHicjZJHQ8JAEIVHYBSiAjZEUaMiWLBhx4YNS1TsCPbey/+/mQSSmezm4Ltk39svm9mZADBVebw+xOoaf0CpBVfV1QeRFAo3uDCNTSjIK2HNImKoxclEaKeVUVHOtFHeDjFGdRDTyQrRbRejVItRKes2gx5G9ZYZj3x6nKK+hBEkQ3bQbxcwQFTY8IO2HWJXoTumhnU7YrlRR1Oo0DGAcWvtF9qbZhvWGxPSoCYtagoC5cX0jATBbAWag/JcM/MyA7BgNdR8LC7RjrJM6yyDVthPoeBqgtyaDa1vcAYxt0l+y4S2cUejbNc8f2/fDmI5xDxEDg6JOarc55iik1M8g0KegnO7y0UWlgAuyF7SVPGK4mvelRvkSoOrUg7ImKusDAq6lZk7kUG8F5kHmUF8dDJRNwbx6R8MIhsYaCV3RnV8LvnsgrwoYuWqxBRf5R68vfs48qHJiKm4GvzU97++Cz+/PP8DDa8o/jlFU78AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<g id="Layer">
+		<use id="Layer" href="#img1" x="0" y="0" />
+	</g>
+</svg>

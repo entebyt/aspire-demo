@@ -1,0 +1,103 @@
+@media (min-width: 990px) {
+    .main-container {
+        .main-section {
+            flex-direction: row-reverse;
+            .sidebar {
+                width: 350px;
+                height: 100%;
+                background: $dark-violet;
+                .sidebar-list {
+                    padding: 2rem;
+                    overflow-y: auto;
+                    color: white;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    .sidebar-list-item {
+                        margin-bottom: 10px;
+                        transition: 0.2s all ease-in-out;
+                        padding: 1rem 0;
+                        flex-direction: row;
+                        p {
+                            font-size: 16px;
+                            margin: 0 0 0 30px;
+                        }
+                    }
+                }
+                .logo-section {
+                    display: block;
+                }
+            }
+            .main-content {
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 20px;
+                width: calc(100% - 340px);
+                background-color: white;
+            }
+        }
+    }
+    .hide-on-large {
+        display: none;
+    }
+
+    .cards-container {
+        .cards-header {
+            position: static;
+            span, .amount {
+                color: black;
+            }
+            .new-card-button {
+                background-color: $violet;
+                padding: 10px 12px;
+                color: white;
+                border: none;
+            }
+        }
+        .navigation-tabs {
+            margin-top: 40px;
+            .navigation-item {
+                color: black;
+                font-weight: bold;
+            }
+        }
+        .inner-container {
+            padding: 0 20px;
+            .debit-card-container {
+                box-shadow: 0 2px 12px 0 #00000014;
+                border-radius: 8px;
+                padding: 20px 0;
+                .card-section {
+                    padding: 0 40px !important;
+                }
+                .detail-container {
+                    box-shadow: none;
+                    margin-top: 0px;
+                }
+                .debit-card-carousel {
+                    position: static;
+                    padding: 0;
+                    .single-card {
+                        padding: 30px 40px;
+                    }
+                }
+                .card-options {
+                    border-radius: 16px;
+                    padding: 24px;
+                    margin: 30px 0 0;
+                }
+                .all-details-section {
+                    padding: 30px 40px 0;
+                }
+            }
+            .card-option {
+                label {
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+    .hide-on-small {
+        display: block;
+    }
+}
